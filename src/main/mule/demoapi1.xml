@@ -13,6 +13,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<flow-ref doc:name="Flow Reference" doc:id="1089af9c-59b4-4943-812f-fbb109e30f2c" name="demosubflowapi1"/>
 		<logger level="INFO" doc:name="Logger" doc:id="2d732710-6b2b-4963-8844-0bc2544d1c96" message="Back to main Flow"/>
 		<logger level="INFO" doc:name="Logger" doc:id="aaf4d166-2f99-4601-86fd-63b0be2ca123" message="Logger is being added in the last "/>
+		<logger level="INFO" doc:name="Logger" doc:id="5296a20d-6c2f-4c7e-9954-765231484aa8" message="Another logger added"/>
 	</flow>
 	<sub-flow name="demosubflowapi1" doc:id="8e0e0ba7-9f6f-4888-8cd7-ff5c60a7c2af" >
 		<logger level="INFO" doc:name="Logger" doc:id="069b4461-5bf1-4fea-9db4-6de986c96b6b" message="Sub Flow 1"/>
